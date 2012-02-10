@@ -1,0 +1,60 @@
+! xterm
+XTerm*bellIsUrgent:  true
+xterm*faceName: fixed
+xterm*facesize: 8
+xterm*reverseVideo: false
+xterm*cursorBlink: true
+xterm*hold: false  
+
+
+!urxvt
+
+URxvt*inheritPixmap: true
+URxvt*tintColor: white
+URxvt*shading: 20
+
+*foreground:            #d3d3d3
+*background:            #000000
+*cursorColor:		orange
+*color0:		#151515
+*color8:		#505450
+*color1:		#bf7979
+*color9:		#f4a45f
+*color2:		#97b26b
+*color10:		#c5f779
+*color3:		#cdcda1
+*color11:		#ffffaf
+*color4:		#4a5463
+*color12:		#7d8794
+*color5:		#9c3885
+*color13:		#e628ba
+*color6:		#88aadd
+*color14:		#99ccff
+*color7:		#ffffff
+*color15:		#dedede
+
+
+urxvt*scrollBar:                false
+
+! ssh support
+urxvt*termName:                 xterm
+
+urxvt*path:			/home/haakon/
+
+!url-click
+urxvt*urllauncher:              google-chrome
+urxvt.perl-ext-common:          default,matcher
+URxvt.matcher.button: 	1
+URxvt.matcher.pattern.1: \\bwww\\.[\\w-]\\.[\\w./?&@#-]*[\\w/-]
+
+urxvt*saveLines:                8192
+
+!irssi bell ftw!
+urxvt.urgentOnBell:             true
+
+!home & end! =)
+urxvt*keysym.Home:              \033[1~
+urxvt*keysym.End:               \033[4~
+
+
+

@@ -1,4 +1,4 @@
-EQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
+"REQUIRED. This makes vim invoke Latex-Suite when you open a tex file.
 filetype plugin on
 
 " IMPORTANT: win32 users will need to have 'shellslash' set so that latex

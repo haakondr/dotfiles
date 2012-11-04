@@ -32,7 +32,7 @@ URxvt*shading: 20
 *color14:		#99ccff
 *color7:		#ffffff
 *color15:		#dedede
-
+URxvt*font:                            xft:Dejavu Sans Mono:pixelsize=15.5
 
 urxvt*scrollBar:                false
 

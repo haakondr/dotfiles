@@ -1,0 +1,13 @@
+[user]
+    name = Håkon Drolsum Røkenes
+    email = haakondr@gmail.com
+
+[color "status"]
+	added = green bold
+	changed = yellow bold
+	untracked = red bold
+
+[alias]
+    cpush = git commit -a -m".." & git push
+
+

@@ -1,0 +1,11 @@
+{
+	"installed_packages":
+	[
+		"BracketHighlighter",
+		"Git",
+		"GitGutter",
+		"Package Control",
+		"Python Flake8 Lint",
+		"SublimeRope"
+	]
+}

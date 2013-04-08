@@ -1,0 +1,41 @@
+[
+	{ "keys": ["ctrl++"], "command": "show_panel", "args": {"panel": "console", "toggle": true} },
+	{ "keys": ["ctrl+u"], "command": "move", "args": {"by": "pages", "forward": false} },
+	{ "keys": ["ctrl+d"], "command": "move", "args": {"by": "pages", "forward": true} },
+	{ "keys": ["ctrl+shift+tab"], "command": "next_view_in_stack" },
+	{ "keys": ["ctrl+tab"], "command": "prev_view_in_stack" },
+
+
+
+// SublimeRope keybindings
+{ "keys": ["ctrl+r", "ctrl+h"], "command": "python_get_documentation", "context":
+    [
+        { "key": "selector", "operator": "equal", "operand": "source.python" }
+    ]
+},
+{ "keys": ["ctrl+t"], "command": "goto_python_definition", "context":
+    [
+        { "key": "selector", "operator": "equal", "operand": "source.python" }
+    ]
+},
+{ "keys": ["ctrl+r", "ctrl+j"], "command": "python_jump_to_global", "context":
+    [
+        { "key": "selector", "operator": "equal", "operand": "source.python" }
+    ]
+},
+{ "keys": ["ctrl+r", "ctrl+i"], "command": "python_auto_import", "context":
+    [
+        { "key": "selector", "operator": "equal", "operand": "source.python" }
+    ]
+},
+	{ "keys": ["ctrl+r", "ctrl+r"], "command": "python_refactor_rename", "context":
+    [
+        { "key": "selector", "operator": "equal", "operand": "source.python" }
+    ]
+},
+{ "keys": ["ctrl+r", "ctrl+e"], "command": "python_refactor_extract_method", "context":
+    [
+        { "key": "selector", "operator": "equal", "operand": "source.python" }
+    ]
+}
+]

@@ -1,13 +1,27 @@
 [user]
     name = Håkon Drolsum Røkenes
-    email = haakondr@gmail.com
+    email = hadr@steria.no
 
 [color "status"]
 	added = green bold
 	changed = yellow bold
 	untracked = red bold
 
+[color]
+    status = auto
+    branch = auto
+    ui = always
+
+[push]
+	default = tracking
+[core]
+	autocrlf = input
+
 [alias]
-    cpush = git commit -a -m".." & git push
-
-
+    ci = commit
+    st = status
+    assume   = update-index --assume-unchanged
+    unassume = update-index --no-assume-unchanged
+    assumed  = "!git ls-files -v | grep ^h | cut -c 3-"
+[diff]
+	algorithm = patience

@@ -1,0 +1,9 @@
+{
+	"installed_packages":
+	[
+		"Package Control",
+		"SublimeLinter",
+		"SublimeRope",
+		"VintageEx"
+	]
+}

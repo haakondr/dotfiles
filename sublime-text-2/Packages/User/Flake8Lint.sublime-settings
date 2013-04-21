@@ -1,6 +1,0 @@
-{
-
-	"ignore": ["E225"],
-	// run flake8 lint on file saving
-	"lint_on_save": false
-}

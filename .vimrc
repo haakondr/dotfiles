@@ -9,3 +9,5 @@ set tw=79
 
 filetype on
 filetype plugin on
+
+colorscheme blackboard

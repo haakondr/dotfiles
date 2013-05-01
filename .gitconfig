@@ -23,5 +23,16 @@
     assume   = update-index --assume-unchanged
     unassume = update-index --no-assume-unchanged
     assumed  = "!git ls-files -v | grep ^h | cut -c 3-"
+
+    # url of origin
+    cloneurl = config --get remote.origin.url
+
+    # from http://blog.blindgaenger.net/advanced_git_aliases.html
+    alias = !git config --list | grep 'alias\\.' | sed 's/alias\\.\\([^=]*\\)=\\(.*\\)/\\1\\ =  \\2/' | sort
+
+    # remove a file from index
+    unadd = reset HEAD
+        
+
 [diff]
 	algorithm = patience

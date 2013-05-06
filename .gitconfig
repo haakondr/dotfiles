@@ -36,3 +36,5 @@
 
 [diff]
 	algorithm = patience
+[url "https://"]
+	insteadOf = git://

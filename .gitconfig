@@ -1,6 +1,6 @@
 [user]
     name = Håkon Drolsum Røkenes
-    email = haakondr@gmail.com
+    email = hadr@steria.no
 
 [color "status"]
 	added = green bold
@@ -38,3 +38,5 @@
 	algorithm = patience
 [url "https://"]
 	insteadOf = git://
+[branch]
+	autosetuprebase = always
